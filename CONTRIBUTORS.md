@@ -11,7 +11,7 @@ A sincere acknowledgment to all the engineers, researchers, and security analyst
 The platform operationalizes Gartner's 5-stage CTEM cycle across reconnaissance, scoped vulnerability assessment, graph-based blast radius modeling, continuous multi-node endpoint telemetry, and real-time SOC visualization.
 
 <p align="center">
-  <a href="https://github.com/Adhinesh"><img src="https://github.com/Adhinesh.png" width="56" height="56" alt="Dhinesh" style="border-radius:50%; margin:3px;" title="Dhinesh - Platform Architect" /></a>
+  <a href="https://github.com/Adhinesh"><img src="https://github.com/Adhinesh.png" width="56" height="56" alt="Dhinesh" style="border-radius:50%; margin:3px;" title="Dhinesh - Database Client & Alert Engine" /></a>
   <a href="https://github.com/himanshdp"><img src="https://github.com/himanshdp.png" width="56" height="56" alt="Himansh Purswani" style="border-radius:50%; margin:3px;" title="Himansh Purswani - Team 1 Lead" /></a>
   <a href="https://github.com/avinashshankarpt"><img src="https://github.com/avinashshankarpt.png" width="56" height="56" alt="Avinash Shankar P T" style="border-radius:50%; margin:3px;" title="Avinash Shankar P T - Team 2 Lead" /></a>
   <a href="https://github.com/aaqibansarii"><img src="https://github.com/aaqibansarii.png" width="56" height="56" alt="Mohd Aaqib" style="border-radius:50%; margin:3px;" title="Mohd Aaqib - Team 3 Lead" /></a>

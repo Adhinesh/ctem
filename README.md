@@ -541,7 +541,7 @@ The platform provides a comprehensive OpenAPI-compliant REST API. Full interacti
 ## 11. Contributors, Leadership & License
 
 <p align="center">
-  <a href="https://github.com/Adhinesh"><img src="https://github.com/Adhinesh.png" width="52" height="52" alt="Dhinesh" style="border-radius:50%; margin:3px;" title="Dhinesh - Platform Architect & Integration" /></a>
+  <a href="https://github.com/Adhinesh"><img src="https://github.com/Adhinesh.png" width="52" height="52" alt="Dhinesh" style="border-radius:50%; margin:3px;" title="Dhinesh - Database Client & Alert Engine" /></a>
   <a href="https://github.com/himanshdp"><img src="https://github.com/himanshdp.png" width="52" height="52" alt="Himansh Purswani" style="border-radius:50%; margin:3px;" title="Himansh Purswani - Team 1 Lead" /></a>
   <a href="https://github.com/avinashshankarpt"><img src="https://github.com/avinashshankarpt.png" width="52" height="52" alt="Avinash Shankar P T" style="border-radius:50%; margin:3px;" title="Avinash Shankar P T - Team 2 Lead" /></a>
   <a href="https://github.com/aaqibansarii"><img src="https://github.com/aaqibansarii.png" width="52" height="52" alt="Mohd Aaqib" style="border-radius:50%; margin:3px;" title="Mohd Aaqib - Team 3 Lead" /></a>
@@ -558,7 +558,6 @@ The platform provides a comprehensive OpenAPI-compliant REST API. Full interacti
   <a href="https://github.com/rahildudekula"><img src="https://github.com/rahildudekula.png" width="52" height="52" alt="Rahil" style="border-radius:50%; margin:3px;" title="Rahil - SIEM Ingestion & UEBA" /></a>
 </p>
 
-- **Platform Architecture & Engineering**: Directed by [Dhinesh](https://github.com/Adhinesh) (`@Adhinesh`) — Supabase client layer, alert engine, agent hardware monitoring & integration.
 - **Technical Leadership & Project Supervision**:
   - **Team 1 Lead**: [Himansh Purswani](https://github.com/himanshdp?tab=repositories) (`@himanshdp`) — Attack Surface Discovery & Reconnaissance Engine
   - **Team 2 Lead**: [Avinash Shankar P T](https://github.com/avinashshankarpt) (`@avinashshankarpt`) — Asset Inventory, Database Architecture & Change Detection
