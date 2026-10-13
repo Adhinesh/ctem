@@ -356,7 +356,7 @@ def create_document(doc_path):
                     "how": "Performed structural schema reviews and verified foreign-key cascade constraints across scans, scan_assets, and open_ports. Validated database persistence integrity during scan lifecycle operations."
                 },
                 {
-                    "name": "Dhinesh (Project Lead / Integration)",
+                    "name": "Dhinesh (Core Engineer / Integration)",
                     "role": "Supabase Client Singleton, Alert Generation Engine & System Integration",
                     "files": "ctem-backend/app/db/supabase_client.py, ctem-backend/migrations/000_full_schema_all_migrations.sql, ctem-backend/app/services/alert_service.py, ctem-backend/app/routers/alerts.py, ctem-backend/scripts/peripheral_blocker.py",
                     "how": "Built the centralized Supabase database connection client and consolidated all schema migrations. Designed and implemented the unified Alert Generation System (alert_service.py) that aggregates alerts from port drift, UEBA anomalies, SIEM logs, and unauthorized peripherals into an actionable triage queue. Developed the physical hardware enforcer (peripheral_blocker.py) for Linux kernel authorization control."

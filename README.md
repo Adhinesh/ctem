@@ -538,7 +538,30 @@ The platform provides a comprehensive OpenAPI-compliant REST API. Full interacti
 
 ---
 
-## 11. Contributors & License
+## 11. Contributors, Leadership & License
 
-- **Engineering & Architecture Team**: Led by [Dhinesh](https://github.com/Adhinesh) and built by a collaborative team of 17 security researchers and software engineers across 5 specialized focus areas. See the full breakdown of modules, key code files, and GitHub profiles in [CONTRIBUTORS.md](CONTRIBUTORS.md).
+<p align="center">
+  <a href="https://github.com/Adhinesh"><img src="https://github.com/Adhinesh.png" width="52" height="52" alt="Dhinesh" style="border-radius:50%; margin:3px;" title="Dhinesh - Platform Architect & Integration" /></a>
+  <a href="https://github.com/himanshdp"><img src="https://github.com/himanshdp.png" width="52" height="52" alt="Himansh Purswani" style="border-radius:50%; margin:3px;" title="Himansh Purswani - Team 1 Lead" /></a>
+  <a href="https://github.com/avinashshankarpt"><img src="https://github.com/avinashshankarpt.png" width="52" height="52" alt="Avinash Shankar P T" style="border-radius:50%; margin:3px;" title="Avinash Shankar P T - Team 2 Lead" /></a>
+  <a href="https://github.com/aaqibansarii"><img src="https://github.com/aaqibansarii.png" width="52" height="52" alt="Mohd Aaqib" style="border-radius:50%; margin:3px;" title="Mohd Aaqib - Team 3 Lead" /></a>
+  <a href="https://github.com/Vijayashree4"><img src="https://github.com/Vijayashree4.png" width="52" height="52" alt="Vijayashree B" style="border-radius:50%; margin:3px;" title="Vijayashree B - Frontend Lead" /></a>
+  <a href="https://github.com/yogeshagrahari"><img src="https://github.com/yogeshagrahari.png" width="52" height="52" alt="Yogesh Kumar Agrahari" style="border-radius:50%; margin:3px;" title="Yogesh Kumar Agrahari - Graph Traversal" /></a>
+  <a href="https://github.com/Rutuja1025"><img src="https://github.com/Rutuja1025.png" width="52" height="52" alt="Rutuja Utekar" style="border-radius:50%; margin:3px;" title="Rutuja Utekar - Recon Engine" /></a>
+  <a href="https://github.com/harvindersingh-cyber"><img src="https://github.com/harvindersingh-cyber.png" width="52" height="52" alt="Harvinder Singh" style="border-radius:50%; margin:3px;" title="Harvinder Singh - Banner Parser & Cloud Recon" /></a>
+  <a href="https://github.com/VKAnupama"><img src="https://github.com/VKAnupama.png" width="52" height="52" alt="V K Anupama" style="border-radius:50%; margin:3px;" title="V K Anupama - Database & Drift Engine" /></a>
+  <a href="https://github.com/ronak564"><img src="https://github.com/ronak564.png" width="52" height="52" alt="Ronak Sajeev" style="border-radius:50%; margin:3px;" title="Ronak Sajeev - Asset Zones" /></a>
+  <a href="https://github.com/vibhuti93"><img src="https://github.com/vibhuti93.png" width="52" height="52" alt="Vibhuti Kumar" style="border-radius:50%; margin:3px;" title="Vibhuti Kumar - CVE Engine & SLAs" /></a>
+  <a href="https://github.com/Virus9T"><img src="https://github.com/Virus9T.png" width="52" height="52" alt="Tanay Sengupta" style="border-radius:50%; margin:3px;" title="Tanay Sengupta - CVE Signature Cache" /></a>
+  <a href="https://github.com/Aksh465"><img src="https://github.com/Aksh465.png" width="52" height="52" alt="Akash Bangera" style="border-radius:50%; margin:3px;" title="Akash Bangera - Risk Scoring Formula" /></a>
+  <a href="https://github.com/dhana2138"><img src="https://github.com/dhana2138.png" width="52" height="52" alt="Dhanavelan" style="border-radius:50%; margin:3px;" title="Dhanavelan - Risk Heatmap Matrix" /></a>
+</p>
+
+- **Platform Architecture & Engineering**: Directed by [Dhinesh](https://github.com/Adhinesh) (`@Adhinesh`) — Supabase client layer, alert engine, agent hardware monitoring & integration.
+- **Technical Leadership & Project Supervision**:
+  - **Team 1 Lead**: [Himansh Purswani](https://github.com/himanshdp?tab=repositories) (`@himanshdp`) — Attack Surface Discovery & Reconnaissance Engine
+  - **Team 2 Lead**: [Avinash Shankar P T](https://github.com/avinashshankarpt) (`@avinashshankarpt`) — Asset Inventory, Database Architecture & Change Detection
+  - **Team 3 Lead**: [Mohd Aaqib](https://github.com/aaqibansarii) (`@aaqibansarii`) — Vulnerability Ingestion & Multi-Factor Risk Engine
+  - **Team 4 Leadership**: Managed collectively by all Team Leads (*Himansh Purswani, Avinash Shankar P T, Mohd Aaqib*) — Graph Topology, SIEM Ingestion, UEBA Analytics & System Integration
+- **Engineering Team**: Built by a collaborative team of security researchers and software engineers across 5 specialized focus areas. See the full breakdown of individual contributions, modules, and code files in [CONTRIBUTORS.md](CONTRIBUTORS.md).
 - **License**: Released under the [MIT License](LICENSE). Feel free to use, modify, and distribute for academic, research, or enterprise security operations.

@@ -9,6 +9,23 @@ A sincere acknowledgment to all the engineers, researchers, and security analyst
 
 The platform operationalizes Gartner's 5-stage CTEM cycle across reconnaissance, scoped vulnerability assessment, graph-based blast radius modeling, continuous multi-node endpoint telemetry, and real-time SOC visualization.
 
+<p align="center">
+  <a href="https://github.com/Adhinesh"><img src="https://github.com/Adhinesh.png" width="56" height="56" alt="Dhinesh" style="border-radius:50%; margin:3px;" title="Dhinesh - Platform Architect" /></a>
+  <a href="https://github.com/himanshdp"><img src="https://github.com/himanshdp.png" width="56" height="56" alt="Himansh Purswani" style="border-radius:50%; margin:3px;" title="Himansh Purswani - Team 1 Lead" /></a>
+  <a href="https://github.com/avinashshankarpt"><img src="https://github.com/avinashshankarpt.png" width="56" height="56" alt="Avinash Shankar P T" style="border-radius:50%; margin:3px;" title="Avinash Shankar P T - Team 2 Lead" /></a>
+  <a href="https://github.com/aaqibansarii"><img src="https://github.com/aaqibansarii.png" width="56" height="56" alt="Mohd Aaqib" style="border-radius:50%; margin:3px;" title="Mohd Aaqib - Team 3 Lead" /></a>
+  <a href="https://github.com/Vijayashree4"><img src="https://github.com/Vijayashree4.png" width="56" height="56" alt="Vijayashree B" style="border-radius:50%; margin:3px;" title="Vijayashree B - Frontend Lead" /></a>
+  <a href="https://github.com/yogeshagrahari"><img src="https://github.com/yogeshagrahari.png" width="56" height="56" alt="Yogesh Kumar Agrahari" style="border-radius:50%; margin:3px;" title="Yogesh Kumar Agrahari - Graph Traversal" /></a>
+  <a href="https://github.com/Rutuja1025"><img src="https://github.com/Rutuja1025.png" width="56" height="56" alt="Rutuja Utekar" style="border-radius:50%; margin:3px;" title="Rutuja Utekar - Recon Engine" /></a>
+  <a href="https://github.com/harvindersingh-cyber"><img src="https://github.com/harvindersingh-cyber.png" width="56" height="56" alt="Harvinder Singh" style="border-radius:50%; margin:3px;" title="Harvinder Singh - Banner Parser & Cloud Recon" /></a>
+  <a href="https://github.com/VKAnupama"><img src="https://github.com/VKAnupama.png" width="56" height="56" alt="V K Anupama" style="border-radius:50%; margin:3px;" title="V K Anupama - Database & Drift Engine" /></a>
+  <a href="https://github.com/ronak564"><img src="https://github.com/ronak564.png" width="56" height="56" alt="Ronak Sajeev" style="border-radius:50%; margin:3px;" title="Ronak Sajeev - Asset Zones" /></a>
+  <a href="https://github.com/vibhuti93"><img src="https://github.com/vibhuti93.png" width="56" height="56" alt="Vibhuti Kumar" style="border-radius:50%; margin:3px;" title="Vibhuti Kumar - CVE Engine & SLAs" /></a>
+  <a href="https://github.com/Virus9T"><img src="https://github.com/Virus9T.png" width="56" height="56" alt="Tanay Sengupta" style="border-radius:50%; margin:3px;" title="Tanay Sengupta - CVE Signature Cache" /></a>
+  <a href="https://github.com/Aksh465"><img src="https://github.com/Aksh465.png" width="56" height="56" alt="Akash Bangera" style="border-radius:50%; margin:3px;" title="Akash Bangera - Risk Scoring Formula" /></a>
+  <a href="https://github.com/dhana2138"><img src="https://github.com/dhana2138.png" width="56" height="56" alt="Dhanavelan" style="border-radius:50%; margin:3px;" title="Dhanavelan - Risk Heatmap Matrix" /></a>
+</p>
+
 ---
 
 ## 📑 Table of Contents
@@ -109,13 +126,14 @@ Team 5 designed and implemented the Next.js 14 SOC dashboard, delivering dark-mo
 
 ---
 
-## 🌟 Additional Platform Contributors & Security Reviewers
+## 🎖️ Technical Leadership & Project Supervision
 
-Special thanks to the following contributors who supported the platform through cross-functional reviews, feature verification, API validations, and testing:
+The project engineering and architecture were directed and supervised by the Team Leads:
 
-- **Mohd Aaqib** ([@aaqibansarii](https://github.com/aaqibansarii)) — Code quality, testing support, and API validation.
-- **Himansh Purswani** ([@himanshdp](https://github.com/himanshdp?tab=repositories)) — Platform review, security test cases, and dependency auditing.
-- **Avinash Shankar P T** ([@avinashshankarpt](https://github.com/avinashshankarpt)) — Telemetry validation, endpoint testing, and system review.
+- **Team 1 Lead**: **Himansh Purswani** ([@himanshdp](https://github.com/himanshdp?tab=repositories)) — Supervised Attack Surface Discovery, reconnaissance engine pipelines (`recon_runner.py`), Go binary tool orchestration (Subfinder, Nmap, httpx), Docker containerization, and DNS/subdomain scanning.
+- **Team 2 Lead**: **Avinash Shankar P T** ([@avinashshankarpt](https://github.com/avinashshankarpt)) — Supervised relational database architecture, PostgreSQL/Supabase schema design, internal vs. external asset zoning, asset change/port drift detection, and data persistence integrity.
+- **Team 3 Lead**: **Mohd Aaqib** ([@aaqibansarii](https://github.com/aaqibansarii)) — Supervised vulnerability ingestion pipelines, asynchronous NVD/CIRCL API lookups, offline curated CVE signature matching, and mathematical modeling for the multi-factor risk engine.
+- **Team 4 Leadership**: **Collective Management by all Team Leads** (*Himansh Purswani, Avinash Shankar P T, Mohd Aaqib*) — Joint technical oversight over Graph Topology & Blast Radius traversal (`blast_radius_service.py`), Security Onion / Suricata SIEM log ingestion, UEBA identity anomaly rules, and end-to-end platform integration.
 
 ---
 
