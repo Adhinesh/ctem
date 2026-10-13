@@ -3,6 +3,7 @@
 [![Contributors](https://img.shields.io/badge/Contributors-17%20Engineers-blue.svg)](#complete-contributors-directory)
 [![Teams](https://img.shields.io/badge/Specialized%20Teams-5%20Modules-emerald.svg)](#-team-by-team-engineering-breakdown)
 [![Architecture](https://img.shields.io/badge/Architecture-Gartner%20CTEM-orange.svg)](README.md)
+[![Co-Authors](https://img.shields.io/badge/GitHub-Co--Authored-success.svg)](#-master-engineering-attribution-matrix)
 [![License](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 
 A sincere acknowledgment to all the engineers, researchers, and security analysts whose collective efforts brought the **Continuous Threat Exposure Management (CTEM) Platform** from concept to production-grade deployment.
