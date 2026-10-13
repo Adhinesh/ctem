@@ -25,6 +25,7 @@ The platform operationalizes Gartner's 5-stage CTEM cycle across reconnaissance,
   <a href="https://github.com/Virus9T"><img src="https://github.com/Virus9T.png" width="56" height="56" alt="Tanay Sengupta" style="border-radius:50%; margin:3px;" title="Tanay Sengupta - CVE Signature Cache" /></a>
   <a href="https://github.com/Aksh465"><img src="https://github.com/Aksh465.png" width="56" height="56" alt="Akash Bangera" style="border-radius:50%; margin:3px;" title="Akash Bangera - Risk Scoring Formula" /></a>
   <a href="https://github.com/dhana2138"><img src="https://github.com/dhana2138.png" width="56" height="56" alt="Dhanavelan" style="border-radius:50%; margin:3px;" title="Dhanavelan - Risk Heatmap Matrix" /></a>
+  <a href="https://github.com/rahildudekula"><img src="https://github.com/rahildudekula.png" width="56" height="56" alt="Rahil" style="border-radius:50%; margin:3px;" title="Rahil - SIEM Ingestion & UEBA" /></a>
 </p>
 
 ---
@@ -92,7 +93,7 @@ Team 4 engineered lateral movement attack graph traversal algorithms, interactiv
 | :--- | :--- | :--- | :--- | :--- |
 | **Yogesh Kumar Agrahari** | [@yogeshagrahari](https://github.com/yogeshagrahari) | Blast Radius Graph Traversal & Topology UI | `blast_radius_service.py`<br>`BlastRadiusGraph.tsx`<br>`blast-radius/page.tsx` | Subnet-aware Breadth-First Search (BFS) graph traversal algorithm and interactive SVG/Canvas attack cascade visualization cockpit. |
 | **Dhanavelan** | [@dhana2138](https://github.com/dhana2138) | Risk Heatmap Grid & Search Filter | `RiskHeatmap.tsx`<br>`risk.py` | Color-coded severity priority matrix (P1 critical to P4 informational) with real-time asset query and exposure filtering. |
-| **Rahil** | — | SIEM Ingestion, UEBA Rules & Forwarder | `log_ingestion_service.py`<br>`ueba_service.py`<br>`ueba_forwarder.py` | High-throughput Suricata and Zeek log ingestion pipeline paired with a 3-rule anomaly engine (brute force, off-hours login, privilege escalation). |
+| **Rahil** | [@rahildudekula](https://github.com/rahildudekula) | SIEM Ingestion, UEBA Rules & Forwarder | `log_ingestion_service.py`<br>`ueba_service.py`<br>`ueba_forwarder.py` | High-throughput Suricata and Zeek log ingestion pipeline paired with a 3-rule anomaly engine (brute force, off-hours login, privilege escalation). |
 
 ---
 
@@ -122,7 +123,7 @@ Team 5 designed and implemented the Next.js 14 SOC dashboard, delivering dark-mo
 | **3** | Hasina | — | CISA KEV Multiplier & Batch Scorer | `risk_engine.py`, `scoring_runner.py` | 1.5x weaponized threat multiplier, batch risk runner |
 | **4** | Yogesh Kumar Agrahari | [@yogeshagrahari](https://github.com/yogeshagrahari) | Blast Radius BFS & Attack Graph UI | `blast_radius_service.py`, `BlastRadiusGraph.tsx` | BFS graph traversal, interactive SVG attack path visualizer |
 | **4** | Dhanavelan | [@dhana2138](https://github.com/dhana2138) | Risk Heatmap Grid & Filter System | `RiskHeatmap.tsx`, `risk.py` | 2D priority risk matrix (P1–P4), multi-attribute filter |
-| **4** | Rahil | — | SIEM Log Ingestion & UEBA Engine | `log_ingestion_service.py`, `ueba_service.py` | Suricata/Zeek pipeline, UEBA anomaly heuristics |
+| **4** | Rahil | [@rahildudekula](https://github.com/rahildudekula) | SIEM Log Ingestion & UEBA Engine | `log_ingestion_service.py`, `ueba_service.py` | Suricata/Zeek pipeline, UEBA anomaly heuristics |
 | **5** | Vijayashree B | [@Vijayashree4](https://github.com/Vijayashree4) | Frontend Lead & Design System | `app/page.tsx`, `lib/api.ts`, `Badge.tsx` | Executive KPI widgets, typed API client, SOC dark mode |
 
 ---
@@ -151,7 +152,7 @@ All individual contributors listed alphabetically:
 7. **Himansh Purswani** — [@himanshdp](https://github.com/himanshdp?tab=repositories)
 8. **Mohd Aaqib** — [@aaqibansarii](https://github.com/aaqibansarii)
 9. **Mohit** — *Async Worker Queues & Scan Services*
-10. **Rahil** — *SIEM Ingestion & UEBA Analytics*
+10. **Rahil** — [@rahildudekula](https://github.com/rahildudekula)
 11. **Ronak Sajeev** — [@ronak564](https://github.com/ronak564)
 12. **Rutuja Utekar** — [@Rutuja1025](https://github.com/Rutuja1025)
 13. **Tanay Sengupta** — [@Virus9T](https://github.com/Virus9T)

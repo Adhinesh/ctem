@@ -555,6 +555,7 @@ The platform provides a comprehensive OpenAPI-compliant REST API. Full interacti
   <a href="https://github.com/Virus9T"><img src="https://github.com/Virus9T.png" width="52" height="52" alt="Tanay Sengupta" style="border-radius:50%; margin:3px;" title="Tanay Sengupta - CVE Signature Cache" /></a>
   <a href="https://github.com/Aksh465"><img src="https://github.com/Aksh465.png" width="52" height="52" alt="Akash Bangera" style="border-radius:50%; margin:3px;" title="Akash Bangera - Risk Scoring Formula" /></a>
   <a href="https://github.com/dhana2138"><img src="https://github.com/dhana2138.png" width="52" height="52" alt="Dhanavelan" style="border-radius:50%; margin:3px;" title="Dhanavelan - Risk Heatmap Matrix" /></a>
+  <a href="https://github.com/rahildudekula"><img src="https://github.com/rahildudekula.png" width="52" height="52" alt="Rahil" style="border-radius:50%; margin:3px;" title="Rahil - SIEM Ingestion & UEBA" /></a>
 </p>
 
 - **Platform Architecture & Engineering**: Directed by [Dhinesh](https://github.com/Adhinesh) (`@Adhinesh`) — Supabase client layer, alert engine, agent hardware monitoring & integration.
