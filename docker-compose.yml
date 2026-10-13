@@ -1,0 +1,57 @@
+services:
+  # ============================================================================
+  # CTEM Backend (FastAPI + Recon Tools + Risk & Blast Radius Engine)
+  # ============================================================================
+  backend:
+    build:
+      context: ./ctem-backend
+      dockerfile: Dockerfile
+    container_name: ctem-backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - SUPABASE_URL=${SUPABASE_URL:-https://mteofjxoercbocplahzy.supabase.co}
+      - SUPABASE_KEY=${SUPABASE_KEY:-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im10ZW9manhvZXJjYm9jcGxhaHp5Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4NjA5NTg3OSwiZXhwIjoyMTAxNjcxODc5fQ.FqV8LDPz5hMESqKO6pVs6Mvgab4nYcIHuGfxarLfrt8}
+      - NVD_API_KEY=${NVD_API_KEY:-}
+      - BLAST_RADIUS_REACHABILITY_MODE=${BLAST_RADIUS_REACHABILITY_MODE:-same_subnet}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+    networks:
+      - ctem-network
+
+  # ============================================================================
+  # CTEM Frontend (Next.js 14 Dashboard, Blast Radius Visualizer & Scans)
+  # ============================================================================
+  frontend:
+    build:
+      context: ./ctem-frontend
+      dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_API_BASE_URL=${NEXT_PUBLIC_API_BASE_URL:-}
+    container_name: ctem-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_BASE_URL=${NEXT_PUBLIC_API_BASE_URL:-}
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://127.0.0.1:3000"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+    networks:
+      - ctem-network
+
+networks:
+  ctem-network:
+    name: ctem-network
+    driver: bridge

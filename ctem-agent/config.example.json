@@ -1,0 +1,21 @@
+{
+  "server_url": "http://127.0.0.1:8000",
+  "hostname": null,
+  "ip_address": null,
+  "asset_type": "endpoint",
+  "zone": "internal",
+  "criticality": "medium",
+  "heartbeat_interval": 30,
+  "port_scan_interval": 60,
+  "process_scan_interval": 30,
+  "enable_logs": true,
+  "enable_ueba": true,
+  "enable_ports": true,
+  "enable_processes": true,
+  "enable_peripherals": true,
+  "custom_log_paths": [
+    "/var/log/auth.log",
+    "/var/log/secure",
+    "/var/log/syslog"
+  ]
+}

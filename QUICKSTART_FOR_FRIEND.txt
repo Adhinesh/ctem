@@ -1,0 +1,46 @@
+==============================================================================
+CTEM PLATFORM - ZERO-CONFIGURATION QUICK START GUIDE
+==============================================================================
+
+Welcome! Everything in this package is pre-configured (including all database 
+credentials in the .env file) so you can run the entire platform with 1 click.
+
+------------------------------------------------------------------------------
+HOW TO RUN ON WINDOWS:
+------------------------------------------------------------------------------
+1. Make sure Docker Desktop is installed and running:
+   https://www.docker.com/products/docker-desktop/
+
+2. Simply double-click:
+   start.bat
+
+   (Or open PowerShell in this folder and run: docker compose up -d)
+
+3. Open your browser:
+   - Dashboard & Blast Radius: http://localhost:3000
+   - Interactive API Docs:     http://localhost:8000/docs
+   - System Health:            http://localhost:8000/health
+
+------------------------------------------------------------------------------
+HOW TO RUN ON MAC / LINUX:
+------------------------------------------------------------------------------
+1. Open Terminal in this folder.
+2. Run:
+   chmod +x start.sh
+   ./start.sh
+3. Open http://localhost:3000 in your browser.
+
+------------------------------------------------------------------------------
+HOW TO MONITOR A WINDOWS VM / NODE:
+------------------------------------------------------------------------------
+1. Copy the single file "ctem-agent/windows_agent.ps1" to the Windows VM.
+2. In the VM, open PowerShell as Administrator and run:
+   powershell -ExecutionPolicy Bypass -File .\windows_agent.ps1 -CtemServer http://<HOST_IP>:8000
+   (Use http://10.0.2.2:8000 if using VirtualBox NAT)
+
+------------------------------------------------------------------------------
+HOW TO STOP:
+------------------------------------------------------------------------------
+In this folder, run:
+   docker compose down
+==============================================================================

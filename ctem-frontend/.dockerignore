@@ -1,0 +1,19 @@
+# Node dependencies and build output
+node_modules
+.next
+out
+
+# Git and OS artifacts
+.git
+.gitignore
+.DS_Store
+
+# Environment configs
+.env*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
